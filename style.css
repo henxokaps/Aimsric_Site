@@ -1,0 +1,10 @@
+.body{
+  font-family: aline serif;  
+}
+
+
+
+.navbar-nav .nav-link {
+    font-family: aline serif; /* Specify your desired font-family */
+    font-size: 16px; /* Specify your desired font size */
+}
