@@ -1,5 +1,5 @@
 .body{
-  font-family: aline serif;  
+  /* font-family: aline serif;   */
 }
 
 
@@ -9,34 +9,68 @@
     font-size: 12px; /* Specify your desired font size */
 }
 
+/* Remove default dropdown arrow and adjust styles */
+.nav-item.dropdown .nav-link::after {
+  display: none; /* Hide the default arrow */
+}
 
+/* Show dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Adjust dropdown menu styles */
+.dropdown-menu {
+  display: none; /* Hide dropdown menu by default */
+  position: absolute;
+  z-index: 1000; /* Ensure it's on top of other elements */
+  background-color: #fff; /* Example background color */
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15); /* Example box shadow */
+}
+
+.dropdown-menu .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa; /* Example hover background color */
+}
+
+.dropdown-item {
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.custom-navbar-container {
+  border-radius: 10px;
+  background-color: #f8f9fa; /* Optional: Set a background color for the navbar container */
+  padding: 10px; /* Optional: Add padding to the navbar container */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 15px; */
+}
+
+.navbar-nav {
+  margin: auto; /* Center the navbar items */
+}
+
+/* HEADER SECION CSSS */
 .header {
-  position: relative;
-  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('images/andre-hunter-AQ908FfdAMw-unsplash.jpg');
+  height: 500px; /* Set the height of the header section */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%), url('images/andre-hunter-AQ908FfdAMw-unsplash.jpg');
   background-size: cover;
   background-position: center;
-  height: 400px; /* Adjust height as needed */
-}
-
-.header::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
-}
-
-.navbar {
-  position: relative; /* Ensure navbar stays above the background */
-  z-index: 1000; /* Ensure navbar is on top of the background */
-  margin-top: 20px; /* Adjust top margin as needed */
-}
-
-/* Additional styles for text readability */
-.navbar-nav .nav-link {
-  color: white; /* Example text color */
-  /* Add more styles as needed */
+  position: relative;
+  padding: 15PX;
 }
