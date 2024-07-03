@@ -68,7 +68,8 @@
 .header {
   height: 500px; /* Set the height of the header section */
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%), url('images/andre-hunter-AQ908FfdAMw-unsplash.jpg');
+  background-image: url('images/NEWGB.jpg');
+  color: rgba(0, 0, 139, 0.5); /* Dark blue overlay with 50% opacity */
   background-size: cover;
   background-position: center;
   position: relative;
