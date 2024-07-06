@@ -65,13 +65,15 @@
 }
 
 /* HEADER SECION CSSS */
-.header {
-  height: 500px; /* Set the height of the header section */
-  background: rgb(2,0,36);
-  background-image: url('images/NEWGB.jpg');
-  color: rgba(0, 0, 139, 0.5); /* Dark blue overlay with 50% opacity */
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  padding: 15PX;
+.header{
+  height: 500px;
+   width: auto;
+   background-image: linear-gradient(rgba(4,9, 30, 0.7 ),rgba(4,9, 30, 0.7 )), url(images/NEWGB.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
 }
