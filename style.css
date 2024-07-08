@@ -1,12 +1,29 @@
-.body{
-  /* font-family: aline serif;   */
+:root {
+  /* Font Families */
+  --global-font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+  --global-font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+}
+
+h1 {
+  font-family: var(--global-font-primary);
+  /* Other styles for h1 */
+}
+
+h2 {
+  font-family: var(--global-font-primary);
+  /* Other styles for h2 */
+}
+
+p {
+  font-family: var(--global-font-secondary);
+  /* Other styles for paragraphs */
 }
 
 
 
 .navbar-nav .nav-link {
     font-family: "Raleway", Sans-serif;
-    font-size: 10px; /* Specify your desired font size */
+    font-size: 11px; /* Specify your desired font size */
     font-weight: 600;
 }
 
@@ -53,14 +70,14 @@
 }
 
 .dropdown-item {
-  font-size: 10px; /* Adjust the font size as needed */
+  font-size: 11px; /* Adjust the font size as needed */
 }
 
 .custom-navbar-container {
   border-radius: 10px;
   background-color: #f8f9fa; /* Optional: Set a background color for the navbar container */
   padding: 5px; /* Optional: Add padding to the navbar container */
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   /* margin-top: 15px; */
@@ -82,4 +99,11 @@
    margin-left: auto;
    margin-right: auto;
    padding: 20px;
+}
+
+/* SVG CSS */
+.center-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
