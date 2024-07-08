@@ -107,3 +107,44 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+/* academic section css */
+.academic-programs .container h4{
+  color: #7f0000;
+  font-weight: 800;
+}
+
+.academic-programs .container{
+  width: 80%;
+}
+
+.academic-programs .container p{
+  font-size: 12px;
+}
+
+.stats-card {
+  background-color: rgba(0, 0, 0, 0.05); /* Light background for card */
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  margin: 5px; /* Margin between cards */
+  flex: 0 0 auto; /* Prevent cards from shrinking */
+}
+
+.stats-card h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.stats-card p {
+  margin: 0;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Gap between cards */
+}
