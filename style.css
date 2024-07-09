@@ -110,11 +110,13 @@ p {
 
 /* academic section css */
 .academic-programs {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),url('images/contours.png'); /* Update with the correct path to your image */
-  background-size: 20%; /* Zoom out effect */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
   background-repeat: repeat; /* Make background image repeat */
   background-position: center;
   position: relative; /* Make the section a positioned element */
+  height: 400px;
+  padding: 10px;
 }
 
 .academic-programs::before {
@@ -149,16 +151,16 @@ p {
 .stats-card {
   background-color: rgba(0, 0, 0, 0.05); /* Light background for card */
   border-radius: 10px;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
-  width: 100px; /* Fixed width */
-  height: 100px; /* Fixed height */
-  margin: 5px; /* Margin between cards */
+  width: auto; /* Fixed width */
+  height: 150px; /* Fixed height */
+  /* margin: 5px; Margin between cards */
   flex: 0 0 auto; /* Prevent cards from shrinking */
 }
 
 .stats-card h4 {
-  font-size: 1.5em;
+  font-size: 2.0em;
   margin: 0;
 }
 
