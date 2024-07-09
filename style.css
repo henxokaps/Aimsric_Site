@@ -89,7 +89,7 @@ p {
 
 /* HEADER SECION CSSS */
 .header{
-  height: 500px;
+   height: 550px;
    width: auto;
    background-image: linear-gradient(rgba(4,9, 30, 0.7 ),rgba(4,9, 30, 0.7 )), url(images/AIMSRIC_cmsd-300x200.jpg);
    background-position: center;
@@ -124,7 +124,7 @@ p {
 }
 
 .academic-programs .container{
-  width: 80%;
+  width: 78%;
 }
 
 .academic-programs .container p{
