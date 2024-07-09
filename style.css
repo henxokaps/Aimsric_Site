@@ -113,8 +113,8 @@ p {
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),url('images/contours.png'); /* Update with the correct path to your image */
   background-size: 20%; /* Zoom out effect */
   background-repeat: repeat; /* Make background image repeat */
-    background-position: center;
-    position: relative; /* Make the section a positioned element */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
 }
 
 .academic-programs::before {
@@ -124,7 +124,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.8); /* White overlay with reduced opacity */
+    /* background-color: rgba(255, 255, 255, 0.8); White overlay with reduced opacity */
     z-index: 1; /* Ensure the overlay is above the background image */
 }
 
