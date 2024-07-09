@@ -141,7 +141,7 @@ p {
 }
 
 .academic-programs .container{
-  width: 78%;
+  width: 80%;
 }
 
 .academic-programs .container p{
@@ -154,7 +154,7 @@ p {
   padding: 30px;
   text-align: center;
   width: auto; /* Fixed width */
-  height: 150px; /* Fixed height */
+  height: auto; /* Fixed height */
   /* margin: 5px; Margin between cards */
   flex: 0 0 auto; /* Prevent cards from shrinking */
 }
