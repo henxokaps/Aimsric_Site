@@ -109,8 +109,17 @@ p {
 }
 
 /* academic section css */
+.academic-programs{
+  width: 100%;
+  height: 400px;
+}
 .academic-programs .container h4{
   color: #7f0000;
+  font-weight: 800;
+}
+
+.academic-programs .container .row .col-md-4 h4{
+  color: black;
   font-weight: 800;
 }
 
