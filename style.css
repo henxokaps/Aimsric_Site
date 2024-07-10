@@ -141,7 +141,7 @@ p {
 }
 
 .academic-programs .container{
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
@@ -199,7 +199,7 @@ p {
 } 
 
 .research-focus .container{
-  width: 75%;
+  width: 70%;
 }
 
 .research-focus .container .row p{
@@ -377,10 +377,11 @@ p {
 .footer{
   height: auto;
   background-color: #161228;
+  
 }
 
 .footer .container{
-  width: 75%;
+  width: 70%;
 }
 
 .footer .container .row .text-left i{
@@ -391,18 +392,45 @@ p {
   color: white;
   text-transform: uppercase;
   font-size: 1.0rem;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .footer ul {
-  list-style-type: disc; /* Adds bullets */
-  padding-left: 20px; /* Adjust indentation of bullets */
+  list-style-type: none; /* Adds bullets */
   text-decoration: none;
 }
 
-.footer .row .col-lg-4 ul li {
+.footer .row .col-lg-4 ul li a{
   text-decoration: none; /* Removes underlines */
+  font-size: 11px;
+  color: white;
 }
 
-.list-unstyled{
+.footer .row .col-lg-4 ul li{
   text-decoration: none; /* Removes underlines */
+  font-size: 11px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.footer .container hr{
+  color: white;
+}
+
+.footer .container .text-center p{
+  color: white;
+  font-size: 11px;
+
+}
+
+.footer .row .col-lg-4 ul i{
+  margin-right: 5px;
+}
+
+.social-media-and-brand-img{
+  display: block; /* Ensures the image behaves as a block element */
+  margin-left: auto; /* Aligns the image to the left */
+  margin-right: auto; /* Centers the image horizontally (optional, if needed) */
 }
