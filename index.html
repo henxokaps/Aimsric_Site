@@ -6,11 +6,12 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
   <section class="header">
     <div class="custom-navbar-container mt-2">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,8 +100,100 @@
             </ul>
           </div>
         </div>
-      </nav>
-      </div>
+      </nav> -->
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  WHO WE ARE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="#">ABOUT AIMS RIC</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">PEOPLE</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">OPPORTUNITIES</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">OUR PARTNERS & FUNDERS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">ACADEMICS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  RESEARCH
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                  <li><a class="dropdown-item" href="#">DATA</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">QUANTUM</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">MODELLING</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">R&D</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand mx-4" href="#"><img src="images/AIMS-logo.png" alt="" width="200px"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PROJECTS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="#">BMGF MAMODAFRICA</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">NIH-DSI-AFRICA</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">MS4CR</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  OUR IMPACT
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                  <li><a class="dropdown-item" href="#">SCIENTIFIC PUBLICATIONS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">RESEARCH IMPACT</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  NEWS & EVENTS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                  <li><a class="dropdown-item" href="#">NEWSROOM</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">APPLY TO HOST A SCIENTIFIC EVENT</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">DONATE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+    
+    </div>
 
       <!-- CENTER WELCOME TEXT STARTS RIGHT HERE -->
       <div class="container-fluid mt-5 pt-5">
@@ -129,10 +222,10 @@
   </section>
 
       <!-- ACADEMIC PROGRAMS SECTION -->
-       <section class="academic-programs bg-light py-5">
+  <section class="academic-programs bg-light py-5">
         <div class="container py-3">
           <div class="row g-0">
-            <div class="col-lg">
+            <div class="col-lg-5">
             <h4 class="fw-black my-3">ACADEMIC PROGRAMS</h4>
             <p>
               AIMS RIC offers a unique atmosphere that prepares research masters and Ph.D. students for careers in academia and industry. Our students are supervised and mentored by professors and leading researchers from across the globe. We are committed to preparing our students to reach the threshold of academic research independence required for knowledge creation and application. To achieve this, we have created a highly motivating and interactive environment for pushing the boundaries of scientific knowledge. This allows our research masters and Ph.D. students to gain high-quality research experience in a rich environment within state-of-the-art facilities and professional career guidance.
@@ -140,9 +233,10 @@
               <br/>
               We are annually looking for motivated, talented students to become involved in research projects covering areas such as Data, Quantum, and Modeling.
             </p>
+            <!-- <button type="button" class="btn btn-outline-danger academics-link">Read More</button> -->
 
             </div>
-            <div class="col-lg">
+            <div class="col-lg-7">
 
               <!-- CONTAINER HAVING THE CARDS WITH FIGURES -->
               <div class="container mt-3">
@@ -191,23 +285,177 @@
             </div>
           </div>
         </div>
-       </section>
+  </section>
+
 
        <!-- Research Focus Section -->
-        <section class="research-focus">
+  <section class="research-focus">
         <div class="container">
-          <div class="row">
-            <div class="col-lg">
-              <h4 class=" fw-bold text-light mt-3">RESEARCH FOCUS</h4>
+          <div class="row gx-5">
+            <div class="col-lg-6">
+              <h4 class=" fw-bold text-light mt-5 mb-2">RESEARCH FOCUS</h4>
+              <p>
+                Our research focuses on three interrelated areas: Data, Quantum, and Modeling. Within these broad domains, we delve into specific subareas such as Climate Science, Bayesian Methodology, Climate and Health Interactions, Infectious Disease Modeling, Data Science, Machine Learning, Artificial Intelligence, Air Pollution, Hydrogen and Clean Fuels, and Quantum Science. These subareas allow us to explore critical intersections and applications of data and quantum principles in addressing complex global challenges.
+              </p>
+              <!-- first research card -->
+              <div class="research-card my-2">
+                <div class="card-content">
+                    <div class="card-number">01</div>
+                    <div class="card-title">Data</div>
+                    <p>We are committed to developing Artificial intelligence (AI) solutions that benefit humanity while ensuring harmony with the environment, drawing inspiration from Africa's millennia-long tradition of living in balance with nature.</p>
+                </div>
             </div>
-            <div class="col-lg">
+            <button type="button" class="btn btn-outline-light">VIEW MORE</button>
+
+            </div>
+            <div class="col-lg-6 mt-5">
+              <!-- second research card -->
+              <div class="research-card my-2">
+                <div class="card-content">
+                    <div class="card-number">02</div>
+                    <div class="card-title">Modelling</div>
+                    <p>We are leaders in modeling the climate of Africa and in diagnostics for diseases like COVID-19. We led the development of a highly efficient diagnostic approach that saved the government of Rwanda millions of US dollars in its response to the pandemic.</p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-light">VIEW MORE</button>
+
+            <!-- Third research card -->
+            <div class="research-card my-2">
+              <div class="card-content">
+                  <div class="card-number">03</div>
+                  <div class="card-title">Quantum</div>
+                  <p>We aim to position Africa to harness the vast benefits of quantum revolutions. We have established a research chair in quantum and support several junior scientists whose work centers on quantum exploration.</p>
+              </div>
+          </div>
+          <button type="button" class="btn btn-outline-light">VIEW MORE</button>
 
             </div>
 
           </div>
+        </div>   
+  </section>
+
+  <!-- CENTRE PRESIDENT MESSAGE -->
+  <section class="centre-president bg-light py-5">
+    <div class="container py-3">
+      <div class="row gx-5">
+        <div class="col-lg-6">
+          <img class="image-container" src="images/Wilfred-Ndifon.jpg" alt="">
         </div>
-          
-        </section>
+        <div class="col-lg-6 py-5">
+        <h3>A message from the Centre President</h3>
+        <h2>NDIFON Wilfred</h2>
+        <h5>It is with great pleasure that I welcome you to AIMS RIC!</h5>
+        <p>
+          Established in 2017 as a  Research Department under the [then] AIMS Secretariate, AIMS RIC became an independent centre in July 2023, dedicated to pushing the boundaries of knowledge through cutting-edge research, serving as a hub for discovery, innovation, and collaboration within Africa and beyond. 
+          <br/>
+          <br/>
+          Moving forward, you will find vibrant stories, insights, and achievements that reflect the essence of who we are and what we stand for. From groundbreaking research breakthroughs to inspiring student endeavors, each feature offers a glimpse into the rich tapestry of life at AIMS RIC.
+          <br/>
+          <br/>
+          On behalf of the entire AIMS RIC community, I extend my heartfelt gratitude for your interest in our institution and for taking the time to explore what we have to offer. We welcome you to discover the endless possibilities that await us on this extraordinary journey together.
+          <br/>
+          <br/>
+          With warmest regards
+        </p>
+
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- MEDIA CENTRE SECTION STARTS FROM RIGHT HERE -->
+ <section class="our-funders bg-light py-5">
+  <div class="container py-3">
+  <h4 class="text-center">OUR FUNDERS</h4>
+  <p>
+    AIMS RIC is funded through public-private partnerships which combine government, foundations, corporations, partner institutions, and individuals who share in the goal of unlocking Africa’s scientific potential to foster major discovery. We are grateful to have formed strong alliances with an array of visionary organizations that share our passion for advancing scientific discovery and innovation.
+  </p>
+  <div id="logoCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+                <div class="col-4">
+                    <img src="logo.PNG" class="d-block w-100" alt="Logo 1">
+                </div>
+                <div class="col-4">
+                    <img src="logo.png" class="d-block w-100" alt="Logo 2">
+                </div>
+                <div class="col-4">
+                    <img src="LOGO.png" class="d-block w-100" alt="Logo 3">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <div class="col-4">
+                    <img src="logo4.png" class="d-block w-100" alt="Logo 4">
+                </div>
+                <div class="col-4">
+                    <img src="logo5.png" class="d-block w-100" alt="Logo 5">
+                </div>
+                <div class="col-4">
+                    <img src="logo1.png" class="d-block w-100" alt="Logo 1">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <div class="col-4">
+                    <img src="logo2.png" class="d-block w-100" alt="Logo 2">
+                </div>
+                <div class="col-4">
+                    <img src="logo3.png" class="d-block w-100" alt="Logo 3">
+                </div>
+                <div class="col-4">
+                    <img src="logo4.png" class="d-block w-100" alt="Logo 4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#logoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#logoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+  </div>
+</section>
+
+<!-- FOOTER SECTION STARTS RIGHT HERE -->
+ <section class="footer mt-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <a class="navbar-brand mx-4" href="#"><img src="images/AIMS-Research-Logo-Cropped.png" alt="" width="200px"></a>
+
+          <div class="text-left my-5 px-4">
+                  <a href="#" class="social-icon m-2"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#" class="social-icon m-2"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="social-icon m-2"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" class="social-icon m-2"><i class="bi bi-youtube"></i></a>
+                  <!-- Add more social icons as needed -->
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h5>Contact us</h5>
+
+        </div>
+        <div class="col-lg-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ </section>
 
 
 

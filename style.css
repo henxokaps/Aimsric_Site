@@ -115,8 +115,8 @@ p {
   background-repeat: repeat; /* Make background image repeat */
   background-position: center;
   position: relative; /* Make the section a positioned element */
-  height: 400px;
-  padding: 10px;
+  height: auto;
+  padding: 5px;
 }
 
 .academic-programs::before {
@@ -142,16 +142,17 @@ p {
 
 .academic-programs .container{
   width: 80%;
+  height: auto;
 }
 
 .academic-programs .container p{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .stats-card {
   background-color: rgba(0, 0, 0, 0.05); /* Light background for card */
   border-radius: 10px;
-  padding: 15px;
+  padding: 25px;
   text-align: center;
   width: auto; /* Fixed width */
   height: auto; /* Fixed height */
@@ -175,6 +176,17 @@ p {
   gap: 10px; /* Gap between cards */
 }
 
+/* link to academics button */
+.academics-link {
+  font-size: 10px;
+  border-radius: 10px;
+  color:#7f0000 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
 /* research focus css */
 .research-focus{
   background-image: linear-gradient(rgba(127, 0, 0, 0.9), rgba(127, 0, 0, 0.9)), url('images/contours.png');
@@ -182,10 +194,215 @@ p {
   background-repeat: repeat; /* Make background image repeat */
   background-position: center;
   position: relative; /* Make the section a positioned element */
-  height: 400px;
-  padding: 10px;
+  height: auto;
+  padding: 15px;
 } 
 
 .research-focus .container{
-  width: 80%;
+  width: 75%;
+}
+
+.research-focus .container .row p{
+  font-size: 11px;
+  color: white;
+}
+
+.research-card {
+  background-color: rgba(128, 0, 0, 0.6); /* Dark red background color with 80% opacity */
+  color: white; /* White text color */
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+.research-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('path/to/your/background-pattern.png'); /* Background pattern */
+  opacity: 0.2;
+  border-radius: 10px;
+}
+.research-card .card-content {
+  position: relative;
+}
+.card-number {
+  font-size: 1.0rem;
+  font-weight: bold;
+ background-color: rgba(105, 2, 2, 0.8); /* Dark red background color with 80% opacity */
+  color: white; /* White text color */
+  padding: 20px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px; /* Set a fixed height to make it a square */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center text inside the box */
+}
+
+.card-title {
+  font-size: 1.0rem;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.research-focus button{
+  font-weight: bold;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+/* CENTRE PRESIDENT SECTION CSS */
+
+.centre-president {
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); Update with the correct path to your image */
+  background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+}
+
+.centre-president::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(255, 255, 255, 0.8); White overlay with reduced opacity */
+    z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.centre-president .container h4{
+  color: #7f0000;
+  font-weight: 800;
+}
+
+.centre-president .container{
+  width: 70%;
+  height: auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensures the container takes up the full height of the column */
+  width: 100%;
+  border-radius: 10px; /* Adds a border radius of 10px */
+}
+.image-container img {
+  max-width: 100%; /* Ensures the image doesn't exceed the column's width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.centre-president .container .row h3 {
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  color: #7f0000;
+  font-weight: bold;
+}
+
+.centre-president .container .row h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.centre-president .container .row h5 {
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  font-size: 14px;
+}
+
+.centre-president .container .row p {
+  font-size: 11px;
+}
+
+/* MEDIA CENTRE CSS STARTS FROM RIGHT HERE */
+.our-funders {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+}
+
+.our-funders::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(255, 255, 255, 0.8); White overlay with reduced opacity */
+    z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.our-funders .container h4{
+  color: #7f0000;
+  font-weight: 800;
+}
+
+.our-funders .container{
+  width: 70%;
+  height: auto;
+}
+
+.our-funders .container p{
+  font-size: 11px;
+  text-align: center; /* Center text inside the box */
+}
+
+.carousel-item img {
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  display: block; /* Ensures inline-block elements align properly */
+  margin: 0 auto; /* Centers the logos horizontally */
+}
+
+.footer{
+  height: auto;
+  background-color: #161228;
+}
+
+.footer .container{
+  width: 75%;
+}
+
+.footer .container .row .text-left i{
+ color: white;
+}
+
+.footer .container .row .col-lg-4 h5{
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.0rem;
+}
+
+.footer ul {
+  list-style-type: disc; /* Adds bullets */
+  padding-left: 20px; /* Adjust indentation of bullets */
+  text-decoration: none;
+}
+
+.footer .row .col-lg-4 ul li {
+  text-decoration: none; /* Removes underlines */
+}
+
+.list-unstyled{
+  text-decoration: none; /* Removes underlines */
 }
