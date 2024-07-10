@@ -264,6 +264,7 @@
 
   .our-news-letter .container p{
     color: white;
+    font-size: 11px;
   }
   .our-news-letter .container h4{
     color: #f8f9fa;
@@ -301,9 +302,18 @@
     border: 1px solid white;
 }
 
-
-
-
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .form-control::placeholder {
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+  .btn-submit {
+    font-size: 12px; /* Adjust the font size as needed */
+    padding: 10px 20px; /* Adjust padding as per your design */
+    margin: 0; /* Reset margin if necessary */
+  }
 
 
 
