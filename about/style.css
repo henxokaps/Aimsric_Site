@@ -127,6 +127,9 @@
   .about-section .container h4{
     color: #7f0000;
     font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 30px;
   }
   
   
@@ -156,16 +159,155 @@
     width: 70%;
     height: auto;
   }
-
-  .about-section .container p{
-    font-size: 11px;
+  .about-section .container .container{
+  width: 100%;
   }
+
+/* academic section css */
+.our-core-values {
+    background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9)),url('../images/contours.png'); /* Update with the correct path to your image */
+    background-size: 20%; /* Zoom out effect */
+    background-repeat: repeat; /* Make background image repeat */
+    background-position: center;
+    position: relative; /* Make the section a positioned element */
+    height: auto;
+    padding: 5px;
+}
+  
+.our-core-values::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /* background-color: rgba(255, 255, 255, 0.8); White overlay with reduced opacity */
+      z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.our-core-values .container{
+    width: 70%;
+    padding: 30px 0px;
+}
+
+.our-core-values .container h4{
+    color: #7f0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+.about-section .container p{
+    font-size: 11px;
+}
   .about-section .container a{
     text-decoration: none;
     font-size: 10px;
     color: #161228;
     font-weight: bold;
   }
+  .card-content {
+    display: flex;
+    align-items: center;
+  }
+  .card-number {
+    background-color: #7f0000; /* Dark red background */
+    color: white; /* White text */
+    padding: 10px 10px; /* Add some padding for better look */
+    font-size: 1.0rem; /* Adjust font size */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .card-title {
+    margin: 0;
+    padding: 0 15px; /* Add padding for spacing */
+   
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .card-title h3{
+    text-transform: uppercase;
+    margin-top: 7px;
+    font-size: 1.0rem; /* Adjust font size */
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    border-radius: 0.25rem;
+  }
+  .card span {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+
+/* OUR NEWSLETTER SECTION CSS */
+.our-news-letter{
+    background-image: linear-gradient(rgba(127, 0, 0, 0.9), rgba(127, 0, 0, 0.9)), url('../images/contours.png');
+    background-size: 30%; /* Zoom out effect */
+    background-repeat: repeat; /* Make background image repeat */
+    background-position: center;
+    position: relative; /* Make the section a positioned element */
+    height: auto;
+    padding: 30px 0px;
+  } 
+  
+  .our-news-letter .container{
+    width: 70%;
+  }
+
+  .our-news-letter .container p{
+    color: white;
+  }
+  .our-news-letter .container h4{
+    color: #f8f9fa;
+    margin: 20px 0px;
+  }
+
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group .form-control {
+    flex: 1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .input-group .btn-submit {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  
+.form-control {
+    background-color: #7f0000; /* Dark red background */
+    border: 1px solid white;
+    color: white;
+}
+.form-control::placeholder {
+    color: white;
+}
+.btn-submit {
+    color: white;
+    background-color: #7f0000; /* Dark red background */
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
 
 /* FOOTER SECTION CSS STARTS RIGHT HERE */
 .footer{
