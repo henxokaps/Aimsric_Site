@@ -309,7 +309,7 @@ p {
 }
 
 .centre-president .container .row h3 {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   color: #7f0000;
   font-weight: bold;
@@ -323,7 +323,7 @@ p {
 .centre-president .container .row h5 {
   text-transform: uppercase;
   /* font-weight: bold; */
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .centre-president .container .row p {
