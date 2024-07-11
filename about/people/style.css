@@ -1,0 +1,241 @@
+:root {
+    /* Font Families */
+    --global-font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+    --global-font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+  }
+  
+  h1 {
+    font-family: var(--global-font-primary);
+    /* Other styles for h1 */
+  }
+  
+  h2 {
+    font-family: var(--global-font-primary);
+    /* Other styles for h2 */
+  }
+  
+  p {
+    font-family: var(--global-font-secondary);
+    /* Other styles for paragraphs */
+  }
+  
+  
+  
+  .navbar-nav .nav-link {
+      font-family: "Raleway", Sans-serif;
+      font-size: 11px; /* Specify your desired font size */
+      font-weight: 600;
+  }
+  
+  /* .navbar-nav .nav-link:hover{
+    color: #7f0000;
+  } */
+  
+  /* Remove default dropdown arrow and adjust styles */
+  .nav-item.dropdown .nav-link::after {
+    display: none; /* Hide the default arrow */
+    
+  }
+  
+  /* Show dropdown menu on hover */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Adjust dropdown menu styles */
+  .dropdown-menu {
+    display: none; /* Hide dropdown menu by default */
+    position: absolute;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    background-color: #fff; /* Example background color */
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15); /* Example box shadow */
+  }
+  
+  .dropdown-menu .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; /* Example hover background color */
+  }
+  
+  .dropdown-item {
+    font-size: 11px; /* Adjust the font size as needed */
+  }
+  
+  .custom-navbar-container {
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Optional: Set a background color for the navbar container */
+    padding: 5px; /* Optional: Add padding to the navbar container */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 15px; */
+  }
+  
+  .navbar-nav {
+    margin: auto; /* Center the navbar items */
+  }
+  
+  /* HEADER SECION CSSS */
+  .header{
+     height: 400px;
+     width: auto;
+     background-image: linear-gradient(rgba(4,9, 30, 0.7 ),rgba(4,9, 30, 0.7 )), url(images/AIMSRIC_cmsd-300x200.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px;
+  }
+  
+  
+  /* academic section css */
+  .about-section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+    background-size: 30%; /* Zoom out effect */
+    background-repeat: repeat; /* Make background image repeat */
+    background-position: center;
+    position: relative; /* Make the section a positioned element */
+    height: auto;
+    padding: 5px;
+  }
+  
+  .about-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /* background-color: rgba(255, 255, 255, 0.8); White overlay with reduced opacity */
+      z-index: 1; /* Ensure the overlay is above the background image */
+  }
+  
+  .about-section .container h4{
+    color: #7f0000;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  
+  
+  .about-section .text-center{
+    width: 70%;
+    height: auto;
+    margin-top: -55px;
+    background-image: linear-gradient(rgba(96, 0, 0, 0.9), rgba(96, 0, 0, 0.9)), url('images/contours.png');
+    border-radius: 10px;
+    padding: 20px;
+    background-size: 30%; /* Zoom out effect */
+    background-color: #7f0000; /* Fallback color if gradients or image fails */
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  .about-section .text-center p{
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+
+  }
+  
+
+.about-section .container{
+    width: 70%;
+    height: auto;
+  }
+  .about-section .container .container{
+  width: 100%;
+  }
+
+.about-section .container p{
+    font-size: 11px;
+}
+  .about-section .container a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #161228;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+/* FOOTER SECTION CSS STARTS RIGHT HERE */
+.footer{
+    height: auto;
+    background-color: #161228;
+    
+  }
+  
+  .footer .container{
+    width: 70%;
+  }
+  
+  .footer .container .row .text-left i{
+   color: white;
+  }
+  
+  .footer .container .row .col-lg-4 h5{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  
+  .footer ul {
+    list-style-type: none; /* Adds bullets */
+    text-decoration: none;
+  }
+  
+  .footer .row .col-lg-4 ul li a{
+    text-decoration: none; /* Removes underlines */
+    font-size: 11px;
+    color: white;
+  }
+  
+  .footer .row .col-lg-4 ul li{
+    text-decoration: none; /* Removes underlines */
+    font-size: 11px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+  
+  .footer .container hr{
+    color: white;
+  }
+  
+  .footer .container .text-center p{
+    color: white;
+    font-size: 11px;
+  
+  }
+  
+  .footer .row .col-lg-4 ul i{
+    margin-right: 5px;
+  }
+  
+  .social-media-and-brand-img{
+    display: block; /* Ensures the image behaves as a block element */
+    margin-left: auto; /* Aligns the image to the left */
+    margin-right: auto; /* Centers the image horizontally (optional, if needed) */
+  }
