@@ -190,7 +190,7 @@
   }
 
   .tabs-for-team .container h4{
-    color: #7f0000;
+    color:#161228;
     font-weight: 800;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -203,13 +203,13 @@
 
 .card {
     width: 100%; /* Adjust the width as per your requirement */
-    height: 100%; /* Adjust the height as per your requirement */
+    height: 350px; /* Adjust the height as per your requirement */
     
 }
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 300px;
     object-fit: cover; /* Maintain image aspect ratio and cover entire area */
 }
 
