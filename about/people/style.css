@@ -174,6 +174,66 @@
   }
 
 
+  /* TABS FOR PEOPLE SECTION CSS */
+  .tabs-for-team{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+    background-size: 30%; /* Zoom out effect */
+    background-repeat: repeat; /* Make background image repeat */
+    background-position: center;
+    position: relative; /* Make the section a positioned element */
+    height: auto;
+    padding: 5px;
+  }
+  .tabs-for-team .container{
+    width: 70%;
+    height: auto;
+  }
+
+  .tabs-for-team .container h4{
+    color: #7f0000;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 30px 0px;
+  }
+  
+
+.card {
+    width: 100%; /* Adjust the width as per your requirement */
+    height: 100%; /* Adjust the height as per your requirement */
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain image aspect ratio and cover entire area */
+}
+
+.card-body {
+    background-color:#7f0000; /* Background color of the card body */
+    color: white; /* Text color inside the card body */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Padding inside the card body */
+}
+
+.card-body h5 {
+    color: white;
+    font-weight: bold; /* Bold font for the h5 */
+    margin-bottom: 10px; /* Optional: Adjust spacing */
+    text-decoration: none; /* Remove any underline that may appear */
+    display: block; /* Ensure it behaves like a block element */
+}
+
+.card-body p {
+    color: white; /* Text color for the paragraph */
+    text-decoration: none; /* Remove any underline that may appear */
+    display: block; /* Ensure it behaves like a block element */
+}
+
+a{
+    text-decoration: none;
+}
 
 
 
