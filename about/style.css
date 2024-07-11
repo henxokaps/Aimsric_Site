@@ -247,10 +247,76 @@
   }
 
 
+
+  /* FAQS SECTION CSS STARTS HERE */
+.faqs{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('../images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+
+}
+
+.faqs .container{
+  width: 70%;
+  padding: 40px 0px;
+}
+
+.faqs .container h4{
+  color: #7f0000;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+/* Override default accordion button styles */
+.accordion-button {
+  background-color:  #161228;
+  color: white;
+  border: 1px solid #161228;
+}
+
+.accordion-button:focus {
+  border-color:  #161228;
+  box-shadow: 0 0 0 0.25rem  #161228;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color:  #161228;
+  color: white;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+/* Change the color of the collapse icon */
+.accordion-button::after {
+  filter: invert(100%);
+}
+
+.accordion-collapse {
+  border-top: 1px solid #161228;
+}
+
+.accordion-item {
+  border: 1px solid #161228;
+}
+
+.accordion-body {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+
 /* OUR NEWSLETTER SECTION CSS */
 .our-news-letter{
     background-image: linear-gradient(rgba(127, 0, 0, 0.9), rgba(127, 0, 0, 0.9)), url('../images/contours.png');
-    background-size: 30%; /* Zoom out effect */
+    background-size: 20%; /* Zoom out effect */
     background-repeat: repeat; /* Make background image repeat */
     background-position: center;
     position: relative; /* Make the section a positioned element */
