@@ -104,7 +104,7 @@
   
   /* academic section css */
   .about-section {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+    background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
     background-size: 30%; /* Zoom out effect */
     background-repeat: repeat; /* Make background image repeat */
     background-position: center;
@@ -187,7 +187,6 @@
   .tabs-for-team .container{
     width: 70%;
     height: auto;
-    background-color: white;
   }
 
   .tabs-for-team .container h4{
@@ -195,6 +194,10 @@
     font-weight: 800;
     text-transform: uppercase;
     font-size: 1.5rem;
+  }
+
+  .tabs-for-team .container p{
+    font-size: 11px;
   }
   
 
