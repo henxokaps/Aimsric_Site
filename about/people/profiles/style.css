@@ -145,13 +145,13 @@
 
 .header .container button{
     font-weight: bold;
-    color: #fff;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
+    background-color: #7f0000;
+    padding: 10px 20px;
+    /* border-radius: 20px; */
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 10px;
+    color: white;
   }
 
 /* imgs css */
