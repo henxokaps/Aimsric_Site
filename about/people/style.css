@@ -175,7 +175,7 @@
 
 
   /* TABS FOR PEOPLE SECTION CSS */
-  .tabs-for-team{
+  .our-governance{
     background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
     background-size: 30%; /* Zoom out effect */
     background-repeat: repeat; /* Make background image repeat */
@@ -184,23 +184,24 @@
     height: auto;
     padding: 5px;
   }
-  .tabs-for-team .container{
+  .our-governance .container{
     width: 70%;
     height: auto;
   }
 
-  .tabs-for-team .container h4{
+  .our-governance .container h4{
     color:#161228;
     font-weight: 800;
     text-transform: uppercase;
     font-size: 1.5rem;
   }
 
-  .tabs-for-team .container p{
+  .our-governance .container p{
     font-size: 11px;
   }
   
 
+  /* CARD CSS STARTS RIGHT HERE */
 .card {
     width: 100%; /* Adjust the width as per your requirement */
     height: 350px; /* Adjust the height as per your requirement */
@@ -237,6 +238,176 @@
 a{
     text-decoration: none;
 }
+
+
+
+/* RESARCH CHAIRS SECTION CSS STARTS HERE */
+.research-chairs{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+}
+.research-chairs .container{
+  width: 70%;
+  height: auto;
+  padding: 30px 0px;
+}
+
+.research-chairs .container h4{
+  color:#161228;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.research-chairs .container p{
+  font-size: 11px;
+}
+
+/* RESIDENT RESEARCHER CSS STARTS RIGHT HERE */
+
+.resident-researchers{
+  background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+}
+.resident-researchers .container{
+  width: 70%;
+  height: auto;
+  padding: 30px 0px;
+}
+
+.resident-researchers .container h4{
+  color:#161228;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.resident-researchers .container p{
+  font-size: 11px;
+}
+
+/* RESARCH CHAIRS SECTION CSS STARTS HERE */
+.research-associates{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+}
+.research-associates .container{
+  width: 70%;
+  height: auto;
+  padding: 30px 0px;
+}
+
+.research-associates .container h4{
+  color:#161228;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.research-associates .container p{
+  font-size: 11px;
+}
+
+
+
+/* POST DOCTRAL FELLOW */
+.post-doctral-fellow{
+  background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+}
+.post-doctral-fellow .container{
+  width: 70%;
+  height: auto;
+  padding: 30px 0px;
+}
+
+.post-doctral-fellow .container h4{
+  color:#161228;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.post-doctral-fellow .container p{
+  font-size: 11px;
+}
+
+/* VISITING RESEARCHERS */
+
+.visiting-researchers{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+}
+.visiting-researchers .container{
+  width: 70%;
+  height: auto;
+  padding: 30px 0px;
+}
+
+.visiting-researchers .container h4{
+  color:#161228;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.visiting-researchers .container p{
+  font-size: 11px;
+}
+
+
+/* ADMINISTRATIVE TEAM */
+.admin-team{
+  background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9)),url('images/contours.png'); /* Update with the correct path to your image */
+  background-size: 30%; /* Zoom out effect */
+  background-repeat: repeat; /* Make background image repeat */
+  background-position: center;
+  position: relative; /* Make the section a positioned element */
+  height: auto;
+  padding: 5px;
+}
+.admin-team .container{
+  width: 70%;
+  height: auto;
+  padding: 30px 0px;
+}
+
+.admin-team .container h4{
+  color:#161228;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.admin-team .container p{
+  font-size: 11px;
+}
+
 
 
 
