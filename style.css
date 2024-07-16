@@ -91,7 +91,7 @@ p {
 .header{
    height: 550px;
    width: auto;
-   background-image: linear-gradient(rgba(4,9, 30, 0.7 ),rgba(4,9, 30, 0.7 )), url(images/AIMSRIC_cmsd-300x200.jpg);
+   background-image: linear-gradient(rgba(4,9, 30, 0.7 ),rgba(4,9, 30, 0.7 )), url(images/center-pics\ \(3\).JPG);
    background-position: center;
    background-size: cover;
    position: relative;
@@ -208,7 +208,7 @@ p {
 }
 
 .research-card {
-  background-color: rgba(128, 0, 0, 0.6); /* Dark red background color with 80% opacity */
+  background-color: rgba(115, 0, 0, 0.6); /* Dark red background color with 80% opacity */
   color: white; /* White text color */
   padding: 30px;
   border-radius: 10px;

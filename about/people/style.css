@@ -91,7 +91,7 @@
   .header{
      height: 400px;
      width: auto;
-     background-image: linear-gradient(rgba(4,9, 30, 0.7 ),rgba(4,9, 30, 0.7 )), url(images/AIMSRIC_cmsd-300x200.jpg);
+     background-image: linear-gradient(rgba(4,9, 30, 0.7 ),rgba(4,9, 30, 0.7 )), url(../../images/center-pics\ \(3\).JPG);
      background-position: center;
      background-size: cover;
      position: relative;
