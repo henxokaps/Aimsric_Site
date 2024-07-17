@@ -437,3 +437,21 @@ p {
   margin-left: auto; /* Aligns the image to the left */
   margin-right: auto; /* Centers the image horizontally (optional, if needed) */
 }
+
+
+/* modal */
+.bi-person-circle {
+  font-size: 10rem; /* Adjust the size as needed */
+}
+
+.modal-body .text-center button{
+  /* font-weight: bold; */
+  color:white;
+  background-color: #161228;
+  /* padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px; */
+  font-size: 12px;
+  width: 100%;
+}
